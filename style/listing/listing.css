@@ -1,0 +1,118 @@
+.container__listingLogin,.containerReview{
+	border: 1px solid black;
+	border-bottom: none;
+}
+.listing__container{
+	border-top: none;
+}
+.login__header__img{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 10px;
+}
+.vehicleListing__block{
+	min-height: 35px;
+	background-color: #E53313;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.vehicleListing__block>h2{
+	text-align: center;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	font-family: var(--InterFamily);
+	text-transform: uppercase;
+
+}
+.listAuto__recomended{
+	min-height: 250px;
+	background: linear-gradient(180deg, #010221 0%, #020332 23.23%, 
+		#030446 50.31%, #040653 77.92%, #05075E 100%);
+	padding-top: 10px;
+}
+.name__Of__block__Recomended{
+	padding-left: var(--paddings);
+	padding-right: var(--paddings);
+}
+.name__Of__block__Recomended>h2{
+	
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	font-family: var(--InterFamily);
+	text-transform: uppercase;
+}
+.listAuto__review{
+	margin-top: 10px;
+	padding-left: var(--paddings);
+}
+.auto-carusel>img{
+	min-width: 155px;
+	height: 100px;
+}
+.auto-carusel>img+h5{
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	font-family: var(--InterFamily);
+	text-transform: uppercase;
+
+}
+.car__price{
+	min-width: 65px;
+	height: 24px;
+	background-color: #E53313; 
+	position: absolute;
+	right:0;
+}
+.car__price>h5{
+
+	font-family: var(--InterFamily);
+	font-weight: 500;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.container__autoReview{
+	max-height: 290px;
+	overflow-y: scroll;
+}
+.auto__review{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block__auto__review{
+	padding-left: 10px;
+}
+.block__auto__review>img{
+	max-width: 155px;
+	height: 100px;
+}
+
+.block__auto__review>img+h5{
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #000000;
+	font-family: var(--InterFamily);
+	
+}
+.car__price__review{
+	position: absolute;
+	min-width: 65px;
+	height: 24px;
+	background-color: #E53313; 
+	color: #ffff;
+	right: 0;
+
+}
+.block__auto__review{
+	position: relative;
+}

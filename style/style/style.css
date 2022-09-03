@@ -1,0 +1,35 @@
+:root{
+
+	--paddings: 15px;
+	--InterFamily: 'Inter', sans-serif;
+
+}
+
+.container{
+	max-width: 390px;
+	padding-left: var(--paddings);
+	padding-right: var(--paddings);
+	margin: 0px auto;
+}
+.container_fluid{
+	max-width: 390px;
+	margin: 0px auto;
+}
+.home__page{
+	max-width: 390px;
+	min-height: 500px;
+	background: linear-gradient(180deg, #010221 0%, #020332 23.23%, 
+		#030446 50.31%, #040653 77.92%, #05075E 100%);
+	margin: 0px auto;
+}
+.img__home{
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 278px;
+	padding-bottom: 486px;
+
+}
+.none{
+	display: none;
+}

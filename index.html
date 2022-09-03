@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style/style/style.css">
+	<link rel="stylesheet" href="./style/detailed/detailed.css">
+	<link rel="stylesheet" href="./style/reset/reset.css">
+	<link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+	<link rel="stylesheet" href="./style/login/login.css">
+	<link rel="stylesheet" href="./style/listing/listing.css">
+	<link rel="stylesheet" href="./style/regPage/regPage.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<main>
+
+<section class="home__page  ">
+	<div class="container">
+	<div class="img__home">
+		<img src="./img/home/home.png" alt="">
+	</div><!--img__car-->
+	</div><!--container-->
+</section><!--home__page-->
+	<section class="login__page ">
+		
+		<div class="container_fluid container__loginFluid">
+			
+			<div class="login__header">
+				
+				<div class="login__header__img">
+					
+					<img src="./img/login/login.png" alt="">
+
+				</div><!--login__header__img-->
+
+			</div><!--login__header-->
+
+			<div class="loginPage__Profile">
+				
+				<div id="Login__arrowLeft" class="loginPage__arrowLeft">
+					
+					<a href="#arrow_RegPage"><img src="./img/login/arrow.png" alt=""></a>
+
+				</div><!--loginPage__arrowLeft-->
+				<div class="loginPage__nameOfPage">
+					
+					<h2>profile</h2>
+
+				</div><!--loginPage__nameOfPage-->
+
+			</div><!--loginPage__Profile-->
+
+			<div class="loginPage__form">
+				
+				<form action="" onsubmit=" return login(this)" method="post">
+					
+					<div class="input__login">
+						
+						<input id="name" name="name" type="text" placeholder="Login">
+
+					</div><!--input__login-->
+
+					<div class="input__password" >
+						
+						<input id="pass" name="password" type="password"placeholder="Password">
+
+					</div><!--input__password-->
+					<div id="error" style="color:red"></div>
+					<div class="input__submit">
+						
+						<input type="submit" value="next">
+
+					</div><!--input__submit-->
+
+				</form>
+
+			</div><!--loginPage__form-->
+
+			<div class="loginPage__haveAcc">
+				
+				<h3>Don`t have account?</h3>
+
+				<div class="loginPage__Register">
+					
+					<a href="">register</a>
+
+				</div><!--loginPage__Register-->
+
+			</div><!--loginPage__haveAcc-->
+
+		</div><!--container_fluid-->
+
+	</section><!--login__page-->
+
+	<section class="registration__page  ">
+		
+		<div class="container_fluid container__registrationPage">
+			
+			<div class="login__header">
+				
+				<div class="login__header__img">
+					
+					<img src="./img/login/login.png" alt="">
+
+				</div><!--login__header__img-->
+
+			</div><!--login__header-->
+
+			<div class="loginPage__Profile registrationPage__profile">
+				
+				<div id="reg__arrowLeft" class="loginPage__arrowLeft">
+					
+					<a href="#vehicle__listing"><img src="./img/login/arrow.png" alt=""></a>
+
+				</div><!--loginPage__arrowLeft-->
+				<div class="loginPage__nameOfPage">
+					
+					<h2>profile</h2>
+
+				</div><!--loginPage__nameOfPage-->
+
+			</div><!--registrationPage__profile-->
+
+			<div class="registration__form">
+				
+				<form action="" onsubmit="return register(this) " method="post">
+					
+					<div class="Login__registrationInput">
+		
+						<input type="text" name="name" placeholder="Login">
+
+					</div><!--Login__registrationInput-->
+
+					<div class="Email__registrationInput">
+						
+						<input type="text" name="mail" placeholder="Email">
+
+					</div><!--Email__registrationInput-->
+
+					<div class="password__registrationInput">
+						
+						<input type="password" name="pass" placeholder="password">
+
+					</div><!--password__registrationInput-->
+
+					<div class="Repassword__registrationInput">
+
+						
+						<input type="password" name="repass" placeholder="password again">
+
+					</div><!--Repassword__registrationInput-->
+
+					<div id="errorReg" style="color:red"></div>
+					<div class="input__submit regSubmit">
+						
+						<input type="submit" value="register">
+
+					</div><!--input__submit-->
+
+				</form>
+
+			</div><!--registration__form-->
+
+	</section><!--registration__page-->
+
+	<section class="vehicle__listing ">
+		
+		<div class="container container__listingLogin">
+			
+			<div class="login__header">
+				
+				<div class="login__header__img">
+
+					<div class="login__img">
+					<img src="./img/login/login.png" alt="">
+					</div><!--login__img-->
+					<div class="loginAccaut__header">
+						
+					<img src="./img/listing/header/accaut.png" alt="">
+
+					</div><!--loginAccaut__header-->
+
+				</div><!--login__header__img-->
+
+			</div><!--login__header-->
+
+
+		</div><!--container-->
+		<div class="container_fluid listing__container">
+			
+			<div class="vehicleListing__block">
+				
+				<h2>vehicle listing</h2>
+
+			</div><!--vehicleListing__block-->
+			
+			<div class="listAuto__recomended">
+				
+				<div class="name__Of__block__Recomended">
+					
+					<h2>recomended</h2>
+
+				</div><!--name__Of__block__Recomended-->
+
+			<div class="listAuto__review">
+				
+				<div class="owl-carousel">
+					<div class="auto-carusel">
+						<div class="car__price">
+							
+							<h5>18 000$</h5>
+
+						</div><!--car__price-->
+					  <img src="./img/listing/recomended/auto.jpg" alt="">
+					  <h5>doodge chalenger</h5>
+					  </div><!--auto-carusel-->
+					  <div class="auto-carusel">
+					  	<div class="car__price">
+							
+							<h5>165 000$</h5>
+
+						</div><!--car__price-->
+					 <img src="./img/listing/recomended/auto1.jpg" alt="">
+					 <h5>mercedes-benz amg</h5>
+					  </div><!--auto-carusel-->
+					  <div class="auto-carusel">
+					  	<div class="car__price">
+							
+							<h5>6 500$</h5>
+
+						</div><!--car__price-->
+					  <img src="./img/listing/recomended/auto2.jpg" alt="">
+					  <h5>Mitsubishi Lancer</h5>
+					  </div><!--auto-carusel-->
+					  <div class="auto-carusel">
+					  	<div class="car__price">
+							
+							<h5>18 800$</h5>
+
+						</div><!--car__price-->
+					  <img src="./img/listing/recomended/auto3.jpg" alt="">
+					  <h5>audi a3</h5>
+					  </div><!--auto-carusel-->
+					   <div class="auto-carusel">
+					   	<div class="car__price">
+							
+							<h5>10 000$</h5>
+
+						</div><!--car__price-->
+					  <img src="./img/listing/recomended/auto4.jpg" alt="">
+					  <h5>ford focus</h5>
+					  </div><!--auto-carusel-->
+					  <div class="auto-carusel">
+					  	<div class="car__price">
+							
+							<h5>50 000$</h5>
+
+						</div><!--car__price-->
+					  <img src="./img/listing/recomended/auto5.jpg" alt="">
+					  <h5>ford mustang</h5>
+					  </div><!--auto-carusel-->
+					  <div class="auto-carusel">
+					  	<div class="car__price">
+							
+							<h5>10 000$</h5>
+
+						</div><!--car__price-->
+					  <img src="./img/listing/recomended/auto6.jpg" alt="">
+					  <h5>mazda rx 8</h5>
+					  </div><!--auto-carusel-->
+					  <div class="auto-carusel">
+					  	<div class="car__price">
+							
+							<h5>40 000$</h5>
+
+						</div><!--car__price-->
+					  <img src="./img/listing/recomended/auto7.jpg" alt="">
+					  <h5>lexus gx</h5>
+					  </div><!--auto-carusel-->
+				</div><!--owl-carousel-->
+
+			</div><!--listAuto__review-->
+
+			</div><!--listAuto__recomended-->
+
+		</div><!--container_fluid-->
+
+		<div class="container containerReview">
+
+			<div class="container__autoReview">
+			
+			<div class="auto__review">
+				
+				<div class="block__auto__review">
+					<div class="car__price__review">
+							
+							<h5>18 000$</h5>
+
+						</div><!--car__price__review-->
+
+					
+					<img src="./img/listing/recomended/auto.jpg" alt="">
+					  <h5>Doodge <br> Chalenger</h5>
+
+				</div><!--block__auto__review-->
+
+				<div class="block__auto__review">
+					<div class="car__price__review">
+							
+							<h5>165 000$</h5>
+
+						</div><!--car__price__review-->
+					
+					<img src="./img/listing/recomended/auto1.jpg" alt="">
+					 <h5>Mercedes-benz <br> amg</h5>
+
+				</div><!--block__auto__review-->
+				</div><!--auto__review-->
+				<div class="auto__review">
+				<div class="block__auto__review">
+
+					<div class="car__price__review">
+							
+							<h5>6 500$</h5>
+
+						</div><!--car__price__review-->
+					
+					<img src="./img/listing/recomended/auto2.jpg" alt="">
+					  <h5>Mitshubisi Lancer</h5>
+
+				</div><!--block__auto__review-->
+				<div class="block__auto__review">
+
+					<div class="car__price__review">
+							
+							<h5>18 800$</h5>
+
+						</div><!--car__price__review-->
+					
+					<img src="./img/listing/recomended/auto3.jpg" alt="">
+					  <h5>AUDI a3</h5>
+
+				</div><!--block__auto__review-->
+				</div><!--auto__review-->
+				<div class="auto__review">
+				<div class="block__auto__review">
+
+					<div class="car__price__review">
+							
+							<h5>10 000$</h5>
+
+						</div><!--car__price__review-->
+					
+					<img src="./img/listing/recomended/auto4.jpg" alt="">
+					  <h5>Ford focus</h5>
+
+				</div><!--block__auto__review-->
+				<div class="block__auto__review">
+
+					<div class="car__price__review">
+							
+							<h5>50 000$</h5>
+
+						</div><!--car__price__review-->
+					
+					<img src="./img/listing/recomended/auto5.jpg" alt="">
+					  <h5>Ford mustang</h5>
+
+				</div><!--block__auto__review-->
+				</div><!--auto__review-->
+				<div class="auto__review">
+				<div class="block__auto__review">
+
+					<div class="car__price__review">
+							
+							<h5>10 000$</h5>
+
+						</div><!--car__price__review-->
+					
+					<img src="./img/listing/recomended/auto6.jpg" alt="">
+					  <h5>Mazda rx 8</h5>
+
+				</div><!--block__auto__review-->
+				<div class="block__auto__review">
+
+					<div class="car__price__review">
+							
+							<h5>40 000$</h5>
+
+						</div><!--car__price__review-->
+					
+					<img src="./img/listing/recomended/auto7.jpg" alt="">
+					  <h5>Lexus gx</h5>
+
+				</div><!--block__auto__review-->
+
+			</div><!--auto__review-->
+
+		</div><!--container__autoReview-->
+		</div><!--container-->
+
+	</section><!--vehicle__listing-->
+
+	<section class="detailed ">
+		
+		<div class="container containerHeader__detailed">
+			
+			<div class="login__header">
+				
+				<div class="login__header__img login_header_detailed">
+
+					<div class="login__img">
+					<img src="./img/login/login.png" alt="">
+					</div><!--login__img-->
+					<div class="loginAccaut__header">
+						
+					<img src="./img/listing/header/accaut.png" alt="">
+
+					</div><!--loginAccaut__header-->
+
+				</div><!--login__header__img-->
+
+			</div><!--login__header-->
+
+
+		</div><!--container-->
+		<div class="container_fluid containerProfile__detailed">
+			
+			<div class="loginPage__detailed ">
+				
+				<div class="loginPage__arrowLeft">
+					
+					<img src="./img/login/arrow.png" alt="">
+
+				</div><!--loginPage__arrowLeft-->
+				<div class="loginPage__nameOfPage">
+					
+					<h2>ford focus</h2>
+
+				</div><!--loginPage__nameOfPage-->
+
+			</div><!--registrationPage__profile-->
+
+			<div class="car__img__detailed">
+
+				<div class="carPrice__detailed">
+					
+					<h5>$ 10 000</h5>
+
+				</div><!--carPrice__detailed-->
+				
+				<img src="./img/listing/recomended/auto4.jpg" alt="">
+
+			</div><!--car__img__detailed-->
+
+		</div><!--container_fluid-->
+		<div class="container containerdesc">
+
+			<div class="description__detailed">
+				
+				<div class="name__of__Detailed">
+					
+					<h2>description</h2>
+
+				</div><!--name__of__Detailed-->
+				<div id="icon__description__detailed1" class="icon__description__detailed">
+					
+					<img src="./img/detailed/discription/arrowdown.png" alt="">
+
+				</div><!--icon__description__detailed-->
+
+			</div><!--discription__detailed-->
+			<div id="description_Of_Car1" class="description_Of_Car">
+					
+					<p>Ford Focus is one of the American manufacturer's bestsellers. He gained his popularity due to the fact that the latest generations became global models and were available in most markets. They are not aimed at any specific audience and suited a large part of the buyers. On April 10, 2018, an all-new fourth generation debuted at a special European event.</p>
+
+				</div><!--description_Of_Car-->
+
+			<div id="specification__detailed1" class="specification__detailed">
+				
+				<div class="name__of__Detailed">
+					
+					<h2>specification</h2>
+
+				</div><!--name__of__Detailed-->
+				<div id="icon__specification" class="icon__description__detailed">
+					
+					<img src="./img/detailed/discription/arrowdown.png" alt="">
+
+				</div><!--icon__description__detailed-->
+
+			</div><!--specification__detailed-->
+			<div id="specification__list" class="specification__list">
+				
+				<div class="description__list">
+
+				<ul>
+					
+					<li>model</li>
+					<li>mark</li>
+					<li>color</li>
+					<li>drive unit</li>
+					<li>engine</li>
+					<li>fuel</li>
+
+				</ul>
+
+				</div><!--description__list-->
+				<div class="list__value">
+					
+						<ul>
+					
+					<li>ford</li>
+					<li>focus</li>
+					<li>blue</li>
+					<li>front drive</li>
+					<li>2 L</li>
+					<li>petrol</li>
+
+				</ul>
+
+
+				</div><!--list__value-->
+
+			</div><!--specification__list-->
+			
+		</div><!--container-->
+
+
+	</section><!--detailed-->
+
+	</main>
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script src="./js/carusel.js"></script>
+</body>
+</html>

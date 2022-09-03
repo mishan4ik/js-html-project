@@ -1,0 +1,121 @@
+.login__header__img{
+	margin-top: 10px; 
+	padding-left: var(--paddings);
+	padding-right: var(--paddings);
+
+}
+.container__loginFluid{
+	border: 1px solid black;
+}
+.loginPage__Profile{
+	margin-top: 10px;
+}
+.loginPage__Profile{
+	max-width: 390px;
+	min-height: 35px;
+	background-color:#E53313;
+	padding-left: var(--paddings);
+	padding-right: var(--paddings);
+	align-items: center;
+	display: flex;
+
+}
+.loginPage__arrowLeft{
+	margin-right: 10px;
+}
+.loginPage__nameOfPage>h2{
+
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 500;
+	font-size: 15px;
+	font-family: var(--InterFamily);
+
+
+}
+.loginPage__form{
+
+	margin-top: 255px;
+	padding-left: var(--paddings);
+	padding-right: var(--paddings);
+	display: flex;
+	justify-content: center;
+}
+
+
+.input__login>input{
+
+	border: 3px solid #DAD9DD;
+	min-height: 50px;
+	padding-left: : 61px;
+	padding-right: 61px;
+	border-radius: 10px;
+
+}
+.input__login>input[placeholder ="Login"]{
+
+	font-family: var(--InterFamily);
+	font-weight: 700;
+	font-size: 17px;
+	color: #000000;
+	padding-left: 20px;
+
+}
+.input__password{
+	margin-top: 30px;
+}
+.input__password>input{
+	border: 3px solid #DAD9DD;
+	min-height: 50px;
+	padding-left: : 61px;
+	padding-right: 61px;
+	border-radius: 10px;
+	padding-left: 20px;
+}
+.input__password>input[placeholder ="Password"]{
+	font-family: var(--InterFamily);
+	font-weight: 700;
+	font-size: 17px;
+	color: #000000;
+}
+.input__submit{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	max-width: 320px;
+	min-height: 60px;
+	background-color: #E53313;
+}
+.input__submit>input[ value = "next"]{
+
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #fff;
+	font-weight: 700;
+	font-family: var(--InterFamily);
+	
+}
+.loginPage__haveAcc{
+	
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 300px;
+
+}
+.loginPage__haveAcc>h3{
+
+	font-weight: 400;
+	font-size: 15px;
+	color: #000000;
+	font-family: var(--InterFamily);
+	margin-right: 10px;
+}
+.loginPage__Register>a{
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 500;
+	color: #E53313;
+	text-decoration: underline;
+	font-family: var(--InterFamily);
+}

@@ -1,0 +1,106 @@
+.container__registrationPage{
+	border: 1px solid black;
+}
+.login__header__img>img{
+	padding-left: var(--paddings);
+	padding-right: var(--paddings);
+}
+
+.loginPage__arrowLeft{
+	padding-left: var(--paddings);
+	padding-right: var(--paddings);
+}
+.registration__form{
+	margin-top: 50px;
+	padding-left: var(--paddings);
+	padding-right: var(--paddings);
+	display: flex;
+	justify-content: center;
+}
+.Login__registrationInput>input{
+	padding-left: 60px;
+	padding-right: 60px;
+	min-height: 60px;
+	border: 3px solid #DAD9DD;
+	border-radius: 10px;
+	
+}
+.Login__registrationInput>input[placeholder="Login"]{
+
+	font-family: var(--InterFamily);
+	font-weight: 700;
+	font-size: 17px;
+	color: #000000;
+	padding-left: 20px;
+
+}
+.Email__registrationInput,.password__registrationInput,.Repassword__registrationInput,
+.input__submit{
+	margin-top: 30px;
+}
+.Email__registrationInput>input{
+
+	padding-left: 60px;
+	padding-right: 60px;
+	min-height: 60px;
+	border: 3px solid #DAD9DD;
+	border-radius: 10px;
+
+
+}
+.Email__registrationInput>input[placeholder="Email"]{
+
+	font-family: var(--InterFamily);
+	font-weight: 700;
+	font-size: 17px;
+	color: #000000;
+	padding-left: 20px;
+
+}
+.password__registrationInput>input{
+
+	padding-left: 60px;
+	padding-right: 60px;
+	min-height: 60px;
+	border: 3px solid #DAD9DD;
+	border-radius: 10px;
+}
+.password__registrationInput>input[placeholder="password"]{
+
+	font-family: var(--InterFamily);
+	font-weight: 700;
+	font-size: 17px;
+	color: #000000;
+	padding-left: 20px;
+
+}
+.Repassword__registrationInput>input{
+
+	padding-left: 60px;
+	padding-right: 60px;
+	min-height: 60px;
+	border: 3px solid #DAD9DD;
+	border-radius: 10px;
+
+}
+.Repassword__registrationInput>input[placeholder="password again"]{
+
+	font-family: var(--InterFamily);
+	font-weight: 700;
+	font-size: 17px;
+	color: #000000;
+	padding-left: 20px;
+
+}
+.input__submit>input[value="register"]{
+
+	text-transform: uppercase;
+	font-size: 17px;
+	color: #fff;
+	font-weight: 700;
+	font-family: var(--InterFamily);
+
+}
+.regSubmit{
+	margin-bottom: 300px;
+}
